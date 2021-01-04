@@ -1,0 +1,243 @@
+
+/* Developed by the TerminatorOTW */
+
+.layout {}
+
+.topPane {
+    -fx-background-color: transparent;
+}
+
+.mainLayout {
+    -fx-background-color: #fff;
+}
+
+.subLayout {}
+
+.menuLayout {
+    -fx-background-color: rgb(221, 221, 221);
+    -fx-padding: 0 0 0 0;
+}
+
+.menuLayout .menu {
+    -fx-background-color: transparent;
+    -fx-padding: 3 10 3 10;
+}
+
+.menuLayout .menu .label {
+    -fx-font-family: "Comic Sans Ms";
+    -fx-text-fill: rgb(110, 110, 110);
+    -fx-font-size: 13px;
+}
+
+.menuLayout .menu:hover,
+.menuLayout .menu:active,
+.menuLayout .menu:showing {
+    -fx-background-color: rgb(197, 197, 197);
+}
+
+.menuLayout .menu:hover .label,
+.menuLayout .menu:active .label,
+.menuLayout .menu:showing .label {
+    -fx-text-fill: rgb(51, 51, 51);
+}
+
+.mainLayout .context-menu {
+    -fx-background-color: #fff;
+    -fx-padding: 2 2 2 2;
+}
+
+.mainLayout .context-menu .menu-item {
+    -fx-background-color: #fff;
+    -fx-padding: 0 3 0 0;
+}
+
+.mainLayout .context-menu .menu-item .label {
+    -fx-font-family: "Comic Sans Ms";
+    -fx-text-fill: rgb(97, 97, 97);
+    -fx-font-size: 13px;
+    -fx-padding: 5 8 5 8;
+}
+
+.mainLayout .context-menu .menu-item:hover,
+.mainLayout .context-menu .menu-item:active,
+.mainLayout .context-menu .menu-item:showing {
+    -fx-background-color: rgb(0, 116, 232);
+    -fx-text-fill: white;
+}
+
+.mainLayout .context-menu .menu-item:hover .label,
+.mainLayout .context-menu .menu-item:showing .label,
+.mainLayout .context-menu .menu-item:active .label {
+    -fx-text-fill: white;
+}
+
+.mainLayout .context-menu .check-menu-item {
+    -fx-padding: 0 8 0 8;
+}
+
+.mainLayout .tooltip {
+    -fx-background-color: rgb(229, 230, 240);
+    -fx-border-color: rgb(118, 118, 118);
+    -fx-border-width: 1px;
+    -fx-border-radius: 2px;
+    -fx-background-radius: 2px;
+    -fx-font-family: Consolas;
+    -fx-font-size: 11px;
+    -fx-text-fill: black;
+    -fx-padding: 4 4 4 4;
+}
+
+.statusBar {
+    -fx-background-color: rgb(0, 122, 204);
+    -fx-padding: 2 5 2 5;
+}
+
+.statusBar .label {
+    -fx-font-family: "Comic Sans Ms";
+    -fx-font-size: 12px;
+    -fx-text-fill: rgb(255, 234, 235);
+    -fx-padding: 2 7 2 7;
+}
+
+.statusBar .label:hover,
+.statusBar .label:active,
+.statusBar .label:focused {
+    -fx-background-color: rgb(31, 138, 210);
+    -fx-text-fill: white;
+}
+
+.tabsLayout {
+    -fx-background-color: rgb(243, 243, 243);
+    -fx-background-radius: 0;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.tabsLayout .button {
+    -fx-background-color: white;
+    -fx-font-family: "Comic Sans Ms";
+    -fx-font-size: 13px;
+    -fx-text-fill: rgb(81, 81, 81);
+    -fx-background-radius: 0;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.textEditorFx .text {
+    -fx-fill: rgb(31, 31, 31);
+    -fx-font-size: 14px;
+}
+
+.textEditorFx {
+    -fx-background-color: white;
+    -fx-font-family: Consolas;
+    -fx-font-size: 14px;
+    -fx-text-fill: rgb(31, 31, 31);
+    -fx-focus-color: transparent;
+    -fx-background-radius: 0;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: white;
+    -fx-highlight-fill: rgb(173, 214, 255);
+    -fx-highlight-text-fill: rgb(31, 31, 31);
+}
+
+.textEditorFx .content {
+    -fx-background-color: #fff;
+    -fx-padding: 5 5 5 0;
+}
+
+.textEditorFx:focused .content {
+    -fx-background-color: #fff;
+}
+
+.textEditorFx .context-menu {
+    -fx-background-color: white;
+    -fx-padding: 2 2 2 2;
+}
+
+.textEditorFx .context-menu .menu-item {
+    -fx-background-color: white;
+    -fx-padding: 0 8 0 0;
+}
+
+.textEditorFx .context-menu .menu-item .label {
+    -fx-font-family: "Comic Sans Ms";
+    -fx-text-fill: rgb(97, 97, 97);
+    -fx-font-size: 13px;
+    -fx-padding: 5 0 5 8;
+}
+
+.textEditorFx .context-menu .menu-item:hover {
+    -fx-background-color: rgb(0, 116, 232);
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(227, 227, 227);
+    -fx-border-width: 1 1 1 1;
+}
+
+.scroll-pane .corner {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: rgb(193, 193, 193);
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: rgb(130, 130, 130);
+}
+
+.scroll-bar .track {
+    -fx-background-color: white;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+}
+
+.mainLayout .lineNoBar {
+    -fx-background-color: white;
+    -fx-focus-color: transparent;
+    -fx-background-radius: 0;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: white;
+}
+
+.mainLayout .lineNoBar .v-box {
+    -fx-background-color: white;
+    -fx-focus-color: transparent;
+    -fx-background-radius: 0;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: white;
+    -fx-padding: 5 0 5 15;
+}
+
+.mainLayout .lineNoBar .label {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: rgb(35, 120, 160);
+    -fx-font-size: 14px;
+    -fx-background-radius: 15px;
+    -fx-padding: 0 4 0 4;
+}
+
+.mainLayout .sideBar {
+    -fx-background-color: rgb(60, 60, 60);
+    -fx-padding: 5 5 5 5;
+}
+
+.mainLayout .sideBar .button {
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-background-radius: 0;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 2 2 17 2;
+}
